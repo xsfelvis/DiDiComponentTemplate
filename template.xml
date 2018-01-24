@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="DiDi Component"
+    description="Creates some template code for didi Component">
+
+    <category value="DiDi" />
+    <formfactor value="Mobile" />
+
+    <parameter
+        id="packageName"
+        name="Package name"
+        type="string"
+        constraints="package"
+        default="com.mycompany.myapp" />
+
+    <parameter
+        id="componentPackageName"
+        name="component Package name"
+        type="string"
+        constraints="unique|nonempty"
+        default="defaultcomponentname" />    
+
+    <parameter
+        id="componentClass"
+        name="Component name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="defaultComponet"
+        help="By convention, should end in 'Component'" />
+
+    <parameter
+        id="viewClass"
+        name="View name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="defaultView"
+        help="By convention, should end in 'View'" />
+
+    <parameter
+        id="viewInterface"
+        name="View interface name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="IdefaultView"
+        help="this is for view interface" />
+
+    <parameter
+        id="viewlayout"
+        name="View layout name"
+        type="string"
+        constraints="layout|unique|nonempty"
+        default="defaultlayout"
+        help="this is for view layout" />
+
+    <parameter
+        id="presenterClass"
+        name="Presenter name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="defaultPresenter"
+        help="By convention, should end in 'Presenter'" />    
+
+    <parameter
+        id="presenterInterface"
+        name="Presenter interface name"
+        type="string"
+        constraints="class|unique|nonempty"
+        default="IdefaultPresenter"
+        help="this is for view layout" />        
+        
+    <thumbs>
+        <thumb>template_component.png</thumb>
+    </thumbs>    
+
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
