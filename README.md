@@ -16,7 +16,7 @@ clone this project
 
 - step 3 use
 
-![](https://github.com/xsfelvis/DiDiComponentTemplate/blob/master/png/step1.png)
+![](http://ogopjinry.bkt.clouddn.com/step1.jpeg)
 
-![](https://github.com/xsfelvis/DiDiComponentTemplate/blob/master/png/step2.png)
+![](http://ogopjinry.bkt.clouddn.com/step2.jpeg)
 
